@@ -14,6 +14,8 @@
 
 
         <LinearLayout
+            android:background="@drawable/border"
+            android:layout_margin="10dp"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:orientation="vertical"
@@ -27,54 +29,50 @@
 
                 <EditText
                     android:id="@+id/editText"
-                    android:layout_width="match_parent"
+                    android:layout_width="453dp"
                     android:layout_height="80dp"
                     android:layout_weight="50"
+                    android:background="@android:color/transparent"
                     android:cursorVisible="false"
                     android:gravity="center"
                     android:inputType="textMultiLine"
-                    android:text="Message Settings"
+                    android:text="Message"
                     android:textColor="#07c1e4"
-                    android:background="@android:color/transparent"/>
+                    android:textSize="25dp" />
 
-                <Button
-                    android:id="@+id/button"
-                    android:layout_width="40dp"
-                    android:layout_height="30dp"
-                    android:text="ok"
-                    android:textSize="10dp"
-                    android:background="@android:color/transparent"/>
+
             </LinearLayout>
 
             <EditText
                 android:id="@+id/editText2"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
+                android:layout_height="11dp"
                 android:layout_weight="2"
                 android:background="@android:color/transparent"
                 android:cursorVisible="false"
                 android:ems="15"
                 android:gravity="center"
                 android:inputType="number"
-                android:text="353450"
+                android:text="35000"
                 android:textColor="#07c1e4" />
 
             <EditText
                 android:id="@+id/editText16"
                 android:layout_width="match_parent"
-                android:layout_height="80dp"
-                android:ems="20"
-                android:inputType="text"
-                android:text="User License Count"
-                android:cursorVisible="false"
-                android:gravity="center"
+                android:layout_height="30dp"
                 android:layout_weight="1"
-                android:textColor="#07c1e4"/>
+                android:cursorVisible="false"
+                android:ems="20"
+                android:gravity="center"
+                android:inputType="text"
+                android:background="@android:color/transparent"
+                android:text="User License Count"
+                android:textColor="#07c1e4" />
 
             <EditText
                 android:id="@+id/editText3"
                 android:layout_width="match_parent"
-                android:layout_height="80dp"
+                android:layout_height="25dp"
                 android:ems="20"
                 android:text="Total Message Sent Today"
                 android:cursorVisible="false"
@@ -94,14 +92,12 @@
                 android:textColor="#07c1e4"
                 android:cursorVisible="false"
                 android:layout_weight="1"
-                android:text="546456366"
+                android:text="5500000"
                 android:background="@android:color/transparent"/>
         </LinearLayout>
-        <View
-            android:layout_width="fill_parent"
-            android:layout_height="1dip"
-            android:background="#07c1e4" />
         <LinearLayout
+            android:background="@drawable/border"
+            android:layout_margin="10dp"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:orientation="vertical"
@@ -110,7 +106,7 @@
             <EditText
                 android:id="@+id/editText5"
                 android:layout_width="match_parent"
-                android:layout_height="80dp"
+                android:layout_height="69dp"
                 android:layout_weight="1"
                 android:background="@android:color/transparent"
                 android:cursorVisible="false"
@@ -119,11 +115,9 @@
                 android:inputType="text"
                 android:singleLine="false"
                 android:text="Users Onboarding"
-                android:textColor="#07c1e4" />
-            <View
-                android:layout_width="fill_parent"
-                android:layout_height="1dip"
-                android:background="#07c1e4" />
+                android:textColor="#07c1e4"
+                android:textSize="25dp" />
+
 
             <EditText
                 android:id="@+id/editText6"
@@ -136,7 +130,7 @@
                 android:gravity="center"
                 android:inputType="textMultiLine"
                 android:singleLine="false"
-                android:text="353450 Potential New User"
+                android:text="30000 Potential New User"
                 android:textColor="#07c1e4" />
 
 
@@ -157,12 +151,7 @@
         </LinearLayout>
 
     </LinearLayout>
-    <LinearLayout
-        android:layout_width="1dp"
-        android:layout_height="match_parent"
-        android:orientation="vertical"
-        android:background="#07c1e4">
-</LinearLayout>
+
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
@@ -174,14 +163,17 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:orientation="vertical"
-            android:layout_weight="0.5">
+            android:layout_weight="0.5"
+            android:background="@drawable/border"
+            android:layout_margin="10dp">
             <EditText
                 android:id="@+id/editText8"
                 android:layout_width="match_parent"
                 android:layout_height="80dp"
                 android:ems="20"
                 android:inputType="text"
-                android:text="Meeting Settings"
+                android:text="Meeting"
+                android:textSize="25dp"
                 android:cursorVisible="false"
                 android:gravity="center"
                 android:layout_weight="1"
@@ -192,27 +184,28 @@
             <EditText
                 android:id="@+id/editText9"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:ems="15"
-                android:inputType="number"
-                android:gravity="center"
-                android:textColor="#07c1e4"
+                android:layout_height="46dp"
                 android:layout_weight="1"
+                android:background="@android:color/transparent"
                 android:cursorVisible="false"
-                android:text="353450"
-                android:background="@android:color/transparent"/>
+                android:ems="15"
+                android:gravity="center"
+                android:inputType="number"
+                android:text="10000"
+                android:textColor="#07c1e4" />
 
             <EditText
                 android:id="@+id/editText10"
                 android:layout_width="match_parent"
-                android:layout_height="80dp"
+                android:layout_height="64dp"
+                android:layout_weight="1"
+                android:background="@android:color/transparent"
+                android:cursorVisible="false"
                 android:ems="20"
+                android:gravity="center"
                 android:inputType="textMultiLine"
                 android:text="User License Count"
-                android:gravity="center"
-                android:layout_weight="1"
-                android:cursorVisible="false"
-                android:textColor="#07c1e4"/>
+                android:textColor="#07c1e4" />
 
             <EditText
                 android:id="@+id/editText15"
@@ -230,63 +223,70 @@
             <EditText
                 android:id="@+id/editText11"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:ems="15"
-                android:inputType="number"
-                android:gravity="center"
-                android:textColor="#07c1e4"
+                android:layout_height="40dp"
                 android:layout_weight="1"
+                android:background="@android:color/transparent"
                 android:cursorVisible="false"
+                android:ems="15"
+                android:gravity="center"
+                android:inputType="number"
                 android:text="400"
-                android:background="@android:color/transparent"/>
+                android:textColor="#07c1e4" />
         </LinearLayout>
-        <View
-            android:layout_width="fill_parent"
-            android:layout_height="1dip"
-            android:background="#07c1e4" />
+
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:orientation="vertical"
+            android:background="@drawable/border"
+            android:layout_margin="10dp"
             android:layout_weight="0.5">
 
             <EditText
                 android:id="@+id/editText12"
                 android:layout_width="match_parent"
-                android:layout_height="80dp"
+                android:layout_height="61dp"
+                android:layout_weight="1"
+                android:background="@android:color/transparent"
+                android:cursorVisible="false"
                 android:ems="20"
+                android:gravity="center"
                 android:inputType="text"
                 android:text="Devices"
-                android:gravity="center"
-                android:layout_weight="1"
-                android:cursorVisible="false"
                 android:textColor="#07c1e4"
-                android:background="@android:color/transparent"/>
+                android:textSize="25dp" />
 
             <EditText
                 android:id="@+id/editText13"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:ems="15"
-                android:inputType="textMultiLine"
-                android:gravity="center"
-                android:textColor="#07c1e4"
-                android:cursorVisible="false"
+                android:layout_height="2dp"
                 android:layout_weight="1"
+                android:background="@android:color/transparent"
+                android:cursorVisible="false"
+                android:ems="15"
+                android:gravity="center"
+                android:inputType="textMultiLine"
                 android:text="Total Active Devices"
-                android:background="@android:color/transparent"/>
+                android:textColor="#07c1e4" />
 
             <EditText
                 android:id="@+id/editText14"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:ems="15"
-                android:inputType="textMultiLine"
-                android:gravity="center"
-                android:textColor="#07c1e4"
-                android:cursorVisible="false"
+                android:layout_height="1dp"
                 android:layout_weight="1"
+                android:background="@android:color/transparent"
+                android:cursorVisible="false"
+                android:ems="15"
+                android:gravity="center"
+                android:inputType="textMultiLine"
                 android:text="390"
+                android:textColor="#07c1e4" />
+            <Button
+                android:id="@+id/button"
+                android:layout_width="40dp"
+                android:layout_height="30dp"
+                android:text="ok"
+                android:textSize="10dp"
                 android:background="@android:color/transparent"/>
         </LinearLayout>
     </LinearLayout>

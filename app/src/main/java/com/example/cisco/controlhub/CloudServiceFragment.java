@@ -22,7 +22,7 @@ public class CloudServiceFragment extends Fragment {
         View view=  inflater.inflate(R.layout.cloud_service_fragment, container, false);
         Random rand = new Random();
         EditText text = (EditText) view.findViewById(R.id.editText2);
-        text.setText(rand.nextInt() + "");
+      //  text.setText("45000");
 
         Button btn = (Button) view.findViewById(R.id.button);
      //   btn.setBackgroundColor(Color.RED);
@@ -44,7 +44,7 @@ public class CloudServiceFragment extends Fragment {
                 dialog.show();
             }
         });
-        text.setText(rand.nextInt() + "");
+        text.setText("10000");
 
         return view;
     }
