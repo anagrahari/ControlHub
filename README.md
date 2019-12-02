@@ -1,1 +1,1 @@
-# ControlHub
+# ControlHub Hackathon
